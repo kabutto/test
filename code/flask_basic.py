@@ -13,6 +13,11 @@ def detail():
     return "detail"
 
 
+@app.route("/next")
+def next():
+    return "next"
+
+
 if __name__ == "__main__":
     app.run(debug=True)
 
